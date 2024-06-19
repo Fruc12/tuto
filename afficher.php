@@ -2,4 +2,5 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "".$_POST["nom"]."<br>";
         echo "".$_POST["prenom"]."<br>";
+        echo "Voici le nom et le prénom";
     }
